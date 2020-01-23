@@ -1,0 +1,200 @@
+body {
+    max-width: 2048px;
+    background-color: #333333;
+    color: #cccccc;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+a {
+    color: cyan;
+}
+
+/* The section below covers the contact info block of the resume*/
+
+.blockhead {
+    background-color: #1b1a1a;
+    color: #ffffff;
+    text-align: center;
+    max-width: 620px;
+    max-height: 620px;
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    padding: 10px;
+    border-radius: 12px;
+}
+
+div.blockhead {
+    align-self: center !important;
+}
+
+img.blockhead-image {
+    padding: 5px;
+    width: 80px;
+    height: 106px;
+}
+
+#blockhead-name {
+    color: #5e67e4;
+    font-size: 18px;
+    font-weight: bold;
+    display: inline;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+}
+
+#blockhead-content {
+    color: #5e67e4;
+    width: 300px;
+    height: 120px;
+}
+
+#blockhead-certs {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* The section below covers the content of the resume*/
+
+#content {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+}
+
+h1.labels {
+    max-width: 440px;
+    color: #da874f;
+    text-align: center;
+}
+
+.labels {
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    background-color: #000000;
+    padding: 5px;
+    border-radius: 12px;
+}
+
+.blocksection {
+    background-color: #333333;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: flex-start;
+}
+
+.block {
+    max-width: 440px;
+    background-color: #1b1a1a;
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.showhidebutton {
+    display: none;
+}
+
+.showhidebutton {
+    border-radius: 12px;
+    border-color: #5e67e4;
+    background-color: #da874f;
+    font-weight: bolder;
+    max-width: 150px;
+    padding: 2px;
+    align-self: center;
+}
+
+span.dateformat {
+    font-size: medium;
+    font-weight: bold;
+}
+
+span.jobtitle-location {
+    font-size: medium;
+    font-style: italic;
+}
+
+/* This section covers media responsiveness for different resolutions */
+
+@media screen and (max-width: 460px) {
+    .bullets {
+        display: none;
+    }
+
+    .showhidebutton {
+        display: inline-block;
+    }
+
+    #self-photo {
+        width: 160px;
+        height: 212px;
+        padding: 10px;
+    }
+
+}
+
+@media screen and (max-width: 425px) {
+
+    .bullets {
+        display: none;
+    }
+
+    .showhidebutton {
+        display: inline-block;
+    }
+
+    #self-photo {
+        width: 160px;
+        height: 212px;
+        padding: 10px;
+    }
+
+    #blockhead-name {
+        display: inline-block;
+        font-weight: bolder;
+        font-size: 18px;
+        margin-block-start: 0px;
+        margin-block-end: 0px;
+    }
+}
+
+@media screen and (max-width: 965px) {
+    .bullets {
+        display: none;
+    }
+
+    .showhidebutton {
+        display: inline-block;
+    }
+}
+
+@media screen and (min-width: 966px) {
+    #summarybullets {
+        height: auto;
+        max-height: 100px;
+        overflow: hidden;
+
+    }
+
+    #summarybullets:hover {
+        overflow:hidden;
+        max-height: max-content;
+        height: auto;
+    }
+
+    .bullets {
+        display: block !important;
+    }
+}
+
+/*
+.name - This is an example of a class name
+#name - This is an example of an ID name
+*/
