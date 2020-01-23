@@ -2,7 +2,7 @@ import React from 'react';
 import selfPhoto from './assets/images/self-photo.png';
 import secLogo from './assets/images/Security.png';
 import caspLogo from './assets/images/CASP.png';
-import showHide from './showHide';
+import showHide from './assets/js/resume';
 import './assets/css/style.css';
 
 function App() {
@@ -97,7 +97,7 @@ function App() {
 
 		<div id="blockbullets" class="blocksection">
 
-			<div class="block" class="job">
+			<div class="block">
 				<span class="dateformat">
 					MAY 2014 - OCT 2019
 				</span>
@@ -131,7 +131,7 @@ function App() {
 				</div>
 			</div>
 
-			<div class="block" class="job">
+			<div class="block">
 				<span class="dateformat">
 					FEB 2012 - MAY 2014
 				</span>
@@ -157,7 +157,7 @@ function App() {
 				</div>
 			</div>
 
-			<div class="block" class="job">
+			<div class="block">
 				<span class="dateformat">
 					OCT 2005 - FEB 2012
 				</span>
