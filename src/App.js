@@ -2,7 +2,6 @@ import React from 'react';
 import selfPhoto from './assets/images/self-photo.png';
 import secLogo from './assets/images/Security.png';
 import caspLogo from './assets/images/CASP.png';
-import showHide from './assets/js/resume';
 import './assets/css/style.css';
 
 function App() {
@@ -10,8 +9,6 @@ function App() {
 
       <div className="App">
       <header className="App-header">
-
-{/* My code between here... */}
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
@@ -29,7 +26,6 @@ function App() {
 			<p id="blockhead-name">MICHAEL ALEXANDER DENMAN</p><br/>
 			United States Citizen<br/> Languages: Spanish & English<br/> Job Availability Date: None<br/>
 
-			<br/>
 			<address>
 				<a id="phone-number" href="tel:+13252772340">Call Me</a>
 				--
@@ -111,7 +107,7 @@ function App() {
 					network
 					operations. Created and maintained technical and operational databases using diverse computer
 					hardware and software applications.</p>
-				<button class="showhidebutton" onclick="showHide('bullets1')">Show/Hide Bullets</button>
+				<button class="showhidebutton" onClick="ShowHide('bullets1')">Show/Hide Bullets</button>
 				<div id="bullets1" class="bullets">
 					<ul>
 						<li>Led six personnel across 7 projects to identify 100+ network security vulnerabilities;
@@ -141,7 +137,7 @@ function App() {
 				<p>Performed periodic and spot inspections and was responsible for maintaining the Quality Control,
 					Environmental and Safety Programs at the field level in support of assigned aircraft, personnel,
 					and support equipment.</p>
-				<button class="showhidebutton" onclick="showHide('bullets2')">Show/Hide Bullets</button>
+				<button class="showhidebutton" onClick="ShowHide('bullets2')">Show/Hide Bullets</button>
 				<div id="bullets2" class="bullets">
 					<ul>
 						<li>Performed daily upkeep and upgrades of Microsoft Access database responsible for five
@@ -167,7 +163,7 @@ function App() {
 				<p>Performed and managed avionics test station functions and activities. Operated, inspected,
 					maintained, programmed, and calibrated computer and manually operated avionics test equipment,
 					support equipment, and aircraft avionics systems components.</p>
-				<button class="showhidebutton" onclick="showHide('bullets3')">Show/Hide Bullets</button>
+				<button class="showhidebutton" onClick="ShowHide('bullets3')">Show/Hide Bullets</button>
 				<div id="bullets3" class="bullets">
 					<ul>
 						<li>Skilled troubleshooter responsible for repair and return to service of over 1000 aircraft
@@ -218,9 +214,6 @@ function App() {
 	<br/><br/><br/>
 	Case number (RES-2019-01941)
 </body>
-
-
-{/* ...and here */}
 
         <a
           className="App-link"
