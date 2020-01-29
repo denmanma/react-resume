@@ -1,8 +1,8 @@
 import React from 'react';
-import selfPhoto from './assets/images/self-photo.png';
-import secLogo from './assets/images/Security.png';
-import caspLogo from './assets/images/CASP.png';
-import './assets/css/style.css';
+import selfPhoto from '../images/self-photo.png';
+import secLogo from '../images/security.png';
+import caspLogo from '../images/casp.png';
+/// import './assets/css/style.css';
 
 function App() {
   return (
