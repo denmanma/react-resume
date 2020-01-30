@@ -2,10 +2,6 @@ import React from "react";
 import selfPhoto from "../../images/self-photo.png";
 import secLogo from "../../images/security.png";
 import caspLogo from "../../images/casp.png";
-import DateRange from "../DateRange/DateRange";
-import JobSummary from "../JobSummary/JobSummary";
-import ShowHideButton from "../ShowHideButton/ShowHideButton";
-import BulletStatement from "../BulletStatement/BulletStatement";
 import JobSection from "../JobSection/JobSection";
 /// import './assets/css/style.css';
 
@@ -152,19 +148,25 @@ function Resume() {
                   'Became subject matter expert. Provided 50+ intelligence briefings and interoffice training sessions to leadership and peers to improve policies and ensure compliance.'
                   ]} /> */}
 
-                  <JobSection dateRange={{to: "may 2014",from: "oct 2019"}}
-                  jobSummary={{title:"Exploitation Analyst",
-                  company:"USAF",
-                  location:"San Antonio, TX & Augusta, GA",
-                  description:"Exploited global communications to support Computer Network Operations (CNO). Prepared security assessments, incident reports, and other technical and intelligence reports as required. Provided studies used to shape the global network environment enabling all aspects of U.S. network operations. Created and maintained technical and operational databases using diverse computer hardware and software applications."}}
-                  bulletStatements={{bullets:[
-                    'Led six personnel across 7 projects to identify 100+ network security vulnerabilities; results highlighted up to and including the President of the United States.' ,
-                    'Senior analyst responsible for research and development against Linux/Unix variants, Windows, Firewalls, Routers, Switches, VMWare, Linux Embedded Smart Devices, Antiviruses, and other systems involved in network management.' ,
-                    'Completed over 200 live operations in pursuit of network vulnerabilities. Identified vulnerabilities that led to groundbreaking successes in pursuit of headquarters’ objectives.' ,
-                    'Trained and certified as a Lead Trainer for 17 Exploitation Analysts; resulted in a 40% increase in qualified personnel.' ,
-                    'Became subject matter expert. Provided 50+ intelligence briefings and interoffice training sessions to leadership and peers to improve policies and ensure compliance.'
-                    ]}}
-                  />
+                <JobSection
+                  dateRange={{ to: "may 2014", from: "oct 2019" }}
+                  jobSummary={{
+                    title: "Exploitation Analyst",
+                    company: "USAF",
+                    location: "San Antonio, TX & Augusta, GA",
+                    description:
+                      "Exploited global communications to support Computer Network Operations (CNO). Prepared security assessments, incident reports, and other technical and intelligence reports as required. Provided studies used to shape the global network environment enabling all aspects of U.S. network operations. Created and maintained technical and operational databases using diverse computer hardware and software applications."
+                  }}
+                  bulletStatements={{
+                    bullets: [
+                      "Led six personnel across 7 projects to identify 100+ network security vulnerabilities; results highlighted up to and including the President of the United States.",
+                      "Senior analyst responsible for research and development against Linux/Unix variants, Windows, Firewalls, Routers, Switches, VMWare, Linux Embedded Smart Devices, Antiviruses, and other systems involved in network management.",
+                      "Completed over 200 live operations in pursuit of network vulnerabilities. Identified vulnerabilities that led to groundbreaking successes in pursuit of headquarters’ objectives.",
+                      "Trained and certified as a Lead Trainer for 17 Exploitation Analysts; resulted in a 40% increase in qualified personnel.",
+                      "Became subject matter expert. Provided 50+ intelligence briefings and interoffice training sessions to leadership and peers to improve policies and ensure compliance."
+                    ]
+                  }}
+                />
               </div>
 
               <div class="block">
