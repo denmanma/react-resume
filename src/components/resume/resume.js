@@ -126,30 +126,8 @@ function Resume() {
 
             <div id="blockbullets" class="blocksection">
               <div class="JobSection">
-                {/* <DateRange from="may 2014" to="oct 2019" />
-                <JobSummary
-                  title="Exploitation Analyst"
-                  company="USAF"
-                  location="San Antonio, TX & Augusta, GA"
-                  description="Exploited global communications to support Computer Network
-                Operations (CNO). Prepared security assessments, incident
-                reports, and other technical and intelligence reports as
-                required. Provided studies used to shape the global network
-                environment enabling all aspects of U.S. network operations.
-                Created and maintained technical and operational databases
-                using diverse computer hardware and software applications."
-                />
-                <ShowHideButton/>
-                <BulletStatement bullets={[
-                  'Led six personnel across 7 projects to identify 100+ network security vulnerabilities; results highlighted up to and including the President of the United States.' ,
-                  'Senior analyst responsible for research and development against Linux/Unix variants, Windows, Firewalls, Routers, Switches, VMWare, Linux Embedded Smart Devices, Antiviruses, and other systems involved in network management.' ,
-                  'Completed over 200 live operations in pursuit of network vulnerabilities. Identified vulnerabilities that led to groundbreaking successes in pursuit of headquarters’ objectives.' ,
-                  'Trained and certified as a Lead Trainer for 17 Exploitation Analysts; resulted in a 40% increase in qualified personnel.' ,
-                  'Became subject matter expert. Provided 50+ intelligence briefings and interoffice training sessions to leadership and peers to improve policies and ensure compliance.'
-                  ]} /> */}
-
                 <JobSection
-                  dateRange={{ to: "may 2014", from: "oct 2019" }}
+                  dateRange={{ from: "may 2014", to: "oct 2019" }}
                   jobSummary={{
                     title: "Exploitation Analyst",
                     company: "USAF",
@@ -168,88 +146,47 @@ function Resume() {
                   }}
                 />
               </div>
-
-              <div class="block">
-                <span class="dateformat">FEB 2012 - MAY 2014</span>
-                <span class="jobtitle-location">
-                  Aircraft Maintenance Quality Assurance Inspector <br /> --
-                  USAF, Okinawa, Japan
-                  <br />
-                </span>
-                <p>
-                  Performed periodic and spot inspections and was responsible
-                  for maintaining the Quality Control, Environmental and Safety
-                  Programs at the field level in support of assigned aircraft,
-                  personnel, and support equipment.
-                </p>
-                <button class="showhidebutton" onClick="ShowHide('bullets2')">
-                  Show/Hide Bullets
-                </button>
-                <div id="bullets2" class="bullets">
-                  <ul>
-                    <li>
-                      Performed daily upkeep and upgrades of Microsoft Access
-                      database responsible for five inspection programs tracking
-                      over 47K inspections. Drafted maintenance guide
-                      distributed to Air Force database admins and users across
-                      the globe.
-                    </li>
-                    <li>
-                      Sole QA inspector for more than 40 personnel and 2000
-                      avionics components. Ensured safety and legal compliance
-                      with local, national, and international law, earning the
-                      Air Force Commendation Medal.
-                    </li>
-                    <li>
-                      Maintained high attention to detail. Identified and
-                      documented over 200 safety and compliance discrepancies
-                      and provided corrective courses of action to responsible
-                      supervisors to streamline processes and prevent future
-                      occurrences.
-                    </li>
-                  </ul>
-                </div>
+              <div class="JobSection">
+                <JobSection
+                  dateRange={{ from: "feb 2012", to: "may 2014" }}
+                  jobSummary={{
+                    title: "Aircraft Maintenance Quality Assurance Inspector",
+                    company: "USAF",
+                    location: "Okinawa, Japan",
+                    description:
+                      "Performed periodic and spot inspections and was responsible for maintaining the Quality Control, Environmental and Safety Programs at the field level in support of assigned aircraft, personnel, and support equipment."
+                  }}
+                  bulletStatements={{
+                    bullets: [
+                      "Performed daily upkeep and upgrades of Microsoft Access database responsible for five inspection programs tracking over 47K inspections. Drafted maintenance guide distributed to Air Force database admins and users across the globe.",
+                      "Sole QA inspector for more than 40 personnel and 2000 avionics components. Ensured safety and legal compliance with local, national, and international law, earning the Air Force Commendation Medal.",
+                      "Maintained high attention to detail. Identified and documented over 200 safety and compliance discrepancies and provided corrective courses of action to responsible supervisors to streamline processes and prevent future occurrences."
+                    ]
+                  }}
+                />
               </div>
 
-              <div class="block">
-                <span class="dateformat">OCT 2005 - FEB 2012</span>
-                <span class="jobtitle-location">
-                  Avionics Test Station & Components Technician <br /> -- USAF,
-                  Abilene, TX & Okinawa, Japan
-                  <br />
-                </span>
-                <p>
-                  Performed and managed avionics test station functions and
-                  activities. Operated, inspected, maintained, programmed, and
-                  calibrated computer and manually operated avionics test
-                  equipment, support equipment, and aircraft avionics systems
-                  components.
-                </p>
-                <button class="showhidebutton" onClick="ShowHide('bullets3')">
-                  Show/Hide Bullets
-                </button>
-                <div id="bullets3" class="bullets">
-                  <ul>
-                    <li>
-                      Skilled troubleshooter responsible for repair and return
-                      to service of over 1000 aircraft parts. Saved over $500M
-                      in replacement costs through a 7-year period, earning an
-                      Air Force Achievement Medal.
-                    </li>
-                    <li>
-                      Lead technician responsible for software updates and
-                      system upgrades for 13 Windows-based test stations leading
-                      to over 99% up-time of required machines.
-                    </li>
-                    <li>
-                      Became lead trainer for radar test equipment. Trained and
-                      tracked training for seven personnel.
-                    </li>
-                  </ul>
-                </div>
+              <div class="JobSection">
+                <JobSection
+                  dateRange={{ from: "oct 2005", to: "feb 2012" }}
+                  jobSummary={{
+                    title: "Avionics Test Station & Components Technician",
+                    company: "USAF",
+                    location: "Abilene, TX & Okinawa, Japan",
+                    description:
+                      "Performed and managed avionics test station functions and activities. Operated, inspected, maintained, programmed, and calibrated computer and manually operated avionics test equipment, support equipment, and aircraft avionics systems components."
+                  }}
+                  bulletStatements={{
+                    bullets: [
+                      "Skilled troubleshooter responsible for repair and return to service of over 1000 aircraft parts. Saved over $500M in replacement costs through a 7-year period, earning an Air Force Achievement Medal.",
+                      "Lead technician responsible for software updates and system upgrades for 13 Windows-based test stations leading to over 99% up-time of required machines.",
+                      "Became lead trainer for radar test equipment. Trained and tracked training for seven personnel."
+                    ]
+                  }}
+                />
               </div>
             </div>
-            <br />
+
 
             <h1 class="labels">CURRICULARS</h1>
             <div id="curriculars" class="blocksection">
